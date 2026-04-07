@@ -9,11 +9,15 @@ public class Visual_sort {
             if (i == 0) System.out.print("+");
             System.out.print("--+");
             if (i == s-1) System.out.print("\n");
+        }
 
+        for (int i = 0; i < s; i++) {
             if (i == 0) System.out.print("|");
             System.out.printf("%2d|", v[i]);
             if (i == s-1) System.out.print("\n");
+        }
 
+        for (int i = 0; i < s; i++) {
             if (i == 0) System.out.print("+");
             System.out.print("--+");
             if (i == s-1) System.out.print("\n");
